@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>PETA WILAYAH STRATEGIS LOKASI HUNIAN DI KABUPATEN SLEMAN</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+    <style>
+      :root {
+        --bg-light: #f3f3e0;
+        --primary-dark: #27548a;
+        --secondary-dark: #183b4e;
+        --accent: #dda853;
+      }
+
+      * {
+        transition: background-color 0.4s ease, color 0.4s ease, transform 0.3s ease;
+      }
+
+      body {
+        font-family: "Poppins", sans-serif;
+        background-color: var(--bg-light);
+        color: var(--secondary-dark);
+        padding-bottom: 58px;
+      }
+
+      .content-container {
+        position: relative;
+        z-index: 1;
+        padding: 5rem 0;
+        background: linear-gradient(135deg, #dda853 0%, #f3f3e0 100%);
+      }
+
+      .col-lg-8 {
+        background-color: #fff;
+        border-radius: 12px;
+        padding: 2rem;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      }
+
+      h1,
+      h3 {
+        text-shadow: 1px 1px 3px #ffffff;
+        color: var(--primary-dark);
+      }
+
+      p {
+        text-align: justify;
+        color: var(--secondary-dark);
+      }
+
+      .btn-primary {
+        background: linear-gradient(135deg, #dda853, #ffc107);
+        border: none;
+        color: #222;
+        font-weight: bold;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+      }
+
+      .btn-primary:hover {
+        background: #183b4e;
+        color: white;
+        transform: translateY(-2px) scale(1.03);
+      }
+
+      iframe {
+        border-radius: 12px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+        margin-top: 1rem;
+      }
+
+      nav.navbar {
+        backdrop-filter: blur(10px);
+        background-color: var(--secondary-dark) !important;
+      }
+
+      .navbar-brand,
+      .nav-link {
+        font-weight: bold;
+        font-size: 1.1rem;
+        color: var(--accent) !important;
+      }
+
+      .col-md-6 {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+
+      .col-md-6:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-bottom">
+      <div class="container px-4 px-lg-5">
+        <a class="navbar-brand" href="#Sleman">Kota Pelajar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#Deskripsi">Dashboard</a></li>
+            <li class="nav-item"><a class="nav-link" href="#webgis">Web GIS</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Content -->
+    <section id="Sleman" class="content-container">
+      <div class="container">
+        <div class="row gx-5">
+          <div class="col-lg-8 mx-auto">
+            <h1 class="mb-4 fw-bold d-flex align-items-center" data-aos="fade-up">
+              <img src="assets/DIY.png" alt="Logo DIY" width="112.5" height="146.1" class="me-3 img-fluid" />
+              Daerah Istimewa Yogyakarta (DIY)
+            </h1>
+            <h3 class="mb-4 fw-bold">Sejarah Daerah Istimewa Yogyakarta (DIY)</h3>
+            <p>
+              Daerah Istimewa Yogyakarta keberadaannya dalam konteks historis dimulai dari sejarah berdirinya Kasultanan Ngayogyakarta Hadiningrat berdasarkan Perjanjian Giyanti 1755. Kasultanan Ngayogyakarta Hadiningrat didirikan pada
+              tahun 1755 oleh Pangeran Mangkubumi yang bergelar Sultan Hamengku Buwono I, sedangkan Kadipaten Pakualaman didirikan pada tahun 1813 oleh Pangeran Notokusumo (saudara Sultan Hamengku Buwono II) yang bergelar Adipati Paku Alam
+              I.
+              <br /><br />
+              Pada masa kolonial Belanda, pemerintahan di Kasultanan Yogyakarta diatur kontrak politik yang dilakukan pada tahun 1877, 1921, dan 1940, antara Sultan dengan Pemerintah Kolonial Belanda. Pemerintah Hindia Belanda mengakui
+              Kasultanan Ngayogyakarta Hadiningrat dan Kadipaten Pakualaman sebagai kerajaan yang berhak mengatur dan mengurus rumah tangga pemerintahannya sendiri yang dikenal dengan istilah zilfbesturende landschappen. Kontrak politik
+              terakhir Kasultanan Ngayogyakarta tercantum dalam Staatsblaad 1941 Nomor 47, sedangkan kontrak politik Kadipaten Pakualaman dalam Staatsblaad 1941 Nomor 577. Pada masa pendudukan Jepang, Yogyakarta diakui sebagai Daerah
+              Istimewa atau Kooti dengan Koo sebagai kepalanya, yakni Sri Sultan Hamengku Buwono IX. Di bawah Kooti, secara struktural ada wilayah-wilayah pemerintahan tertentu dengan para pejabatnya.
+              <br /><br />
+              Sumber:
+              <a href="https://jogjaprov.go.id/profil/3-sejarah" target="_blank" rel="noopener noreferrer"> Portal Pemerintah Daerah Daerah Istimewa Yogyakarta </a>
+            </p>
+
+            <h3 class="mb-4 fw-bold">DIY Sebagai Kota Pelajar</h3>
+            <p>
+              Julukan Kota Pelajar disematkan kepada DIY karena sejarah panjang dalam dunia pendidikan. Asal usul julukan kota pelajar sendiri berawal dari pendidikan di DIY yang telah mengakar kuat sejak sebelum kemerdekaan Indonesia.
+              Yogyakarta telah memiliki beberapa sekolah yang didirikan oleh pemerintah kolonial Belanda dan juga oleh kaum pribumi. Salah satu contoh sekolah yang menjadi cikal bakal perkembangan pendidikan di DIY yaitu Sekolah Raja atau
+              Kweekschool. Sekolah ini didirikan pada tahun 1910. Pada tahun 1949, Universitas Gadjah Mada didirikan sebagai universitas pertama yang dikelola pemerintah Indonesia. Didirikannya UGM menjadi daya tarik yang kuat untuk menimba
+              ilmu dan membuat DIY terkenal dengan julukan Kota Pelajar.
+            </p>
+
+            <h3 class="mb-4 fw-bold">Kabupaten Sleman</h3>
+            <p>
+              Kabupaten Sleman merupakan salah satu kabupaten di Daerah Istimewa Yogyakarta yang terletak diantara 110° 33′ 00″ dan 110° 13′ 00″ Bujur Timur, 7° 34′ 51″ dan 7° 47′ 30″ Lintang Selatan. Memiliki luas sebesar 57.482 Ha atau
+              574,82 Km<sup>2</sup> atau sekitar 18% dari luas Provinsi Daerah Istimewa Jogjakarta. Kabupaten Sleman memiliki 51 Sekolah Menengah Atas, 58 Sekolah Menengah Kejuruan, 126 sekolah menengah pertama, serta 513 sekolah dasar.
+              Konsentrasi lembaga pendidikan yang tinggi ini menjadikan Sleman sebagai wilayah dengan kebutuhan hunian pelajar yang tinggi pula.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Deskripsi Peta -->
+    <section id="Deskripsi" class="content-container" style="background-image: url(assets/Background.png); background-size: cover; background-position: center; background-repeat: no-repeat; min-height: 100vh; color: #000">
+      <div class="container">
+        <div class="row gx-5">
+          <div class="col-lg-8 mx-auto">
+            <h1 class="mb-4 fw-bold" data-aos="fade-right">Deskripsi Peta</h1>
+            <p>
+              Peta ini menggambarkan wilayah strategis untuk lokasi hunian di Kabupaten Sleman berdasarkan kedekatannya dengan Sekolah Menengah Atas (SMA). Zona-zona strategis diklasifikasikan ke dalam lima kategori:
+              <strong>sangat dekat (0–500 m), dekat (501–1000 m), sedang (1001–1500 m), jauh (1501–2000 m), dan sangat jauh (2001–3000 m)</strong>.
+            </p>
+
+            <!-- Tambahan Desain Dua Kolom SMA Negeri & Swasta -->
+            <div class="container my-5 p-4 rounded" style="background-color: #183b4e; color: white">
+              <div class="row text-center" style="border-radius: 12px">
+                <!-- SMA Negeri -->
+                <div class="col-md-6 mb-4">
+                  <div class="mb-3">
+                    <img src="assets/negeri.svg" alt="SMA Negeri Icon" style="width: 64px" />
+                  </div>
+                  <h4 class="fw-bold">SMA Negeri</h4>
+                  <p class="text-start px-3" style="color: white !important">
+                    SMA Negeri adalah singkatan dari Sekolah Menengah Atas Negeri, yaitu jenjang pendidikan menengah formal di Indonesia yang diselenggarakan oleh pemerintah setelah siswa lulus dari Sekolah Menengah Pertama (SMP) atau
+                    sederajat. SMA Negeri berbeda dengan SMA swasta karena dikelola dan didanai oleh pemerintah daerah, khususnya pemerintah provinsi sejak diberlakukannya otonomi daerah.
+                  </p>
+                </div>
+
+                <!-- SMA Swasta -->
+                <div class="col-md-6 mb-4">
+                  <div class="mb-3">
+                    <img src="assets/swasta.svg" alt="SMA Swasta Icon" style="width: 64px" />
+                  </div>
+                  <h4 class="fw-bold">SMA Swasta</h4>
+                  <p class="text-start px-3" style="color: white !important">
+                    SMA Swasta adalah Sekolah Menengah Atas (SMA) yang didirikan, dikelola, dan diselenggarakan oleh pihak non-pemerintah, seperti yayasan, organisasi masyarakat, atau perorangan, bukan oleh pemerintah. Pengelolaan sekolah
+                    ini sepenuhnya berada di bawah badan atau yayasan pendidikan yang bersangkutan, tanpa campur tangan langsung dari pemerintah dalam hal operasional sehari-hari.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <p>
+              Klasifikasi ini dibuat melalui analisis spasial menggunakan metode buffer terhadap titik-titik lokasi SMA yang tersebar di wilayah Sleman. Peta ini merupakan visualisasi dari kebutuhan akan hunian yang mendukung efisiensi dan
+              kenyamanan belajar siswa, khususnya bagi pelajar luar daerah yang menempuh pendidikan di Sleman.
+            </p>
+
+            <p>Dashboard peta dapat diakses melalui tombol berikut:</p>
+            <a id="Dashboard" class="btn btn-primary btn-lg mt-2" href="http://localhost:8081/mapstore/#/dashboard/193" target="_blank" rel="noopener noreferrer"> Dashboard Peta </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Map Embed -->
+    <section id="webgis" class="text-center pb-5 bg-light" style="padding-top: 6rem">
+      <div class="container bg-white p-4 rounded shadow">
+        <h1 class="mb-4 fw-bold" data-aos="fade-up">Peta Wilayah Strategis Lokasi Hunian di Kabupaten Sleman</h1>
+        <iframe height="675" width="100%" src="qgis2web_2025_06_07-21_24_44_767745/index.html" class="rounded"></iframe>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-3" style="background-color: #183b4e; color: white">
+      <small>Tutur Arif Wibowo - 23/514535/SV/22377</small>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
